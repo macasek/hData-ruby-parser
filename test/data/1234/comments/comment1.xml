@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment xmlns="http://projecthdata.org/hdata/schemas/2009/06/comment"
+ xmlns:ns2="http://projecthdata.org/hdata/schemas/2009/06/core">
+    <ns2:date>2006-05-04T18:13:51.0Z</ns2:date>
+    <author>
+        <ns2:name>
+            <ns2:title>title0</ns2:title>
+            <ns2:given>given0</ns2:given>
+            <ns2:given>given1</ns2:given>
+            <ns2:lastname>lastname0</ns2:lastname>
+            <ns2:suffix>suffix0</ns2:suffix>
+        </ns2:name>
+        <ns2:address>
+            <ns2:streetAddress>streetAddress0</ns2:streetAddress>
+            <ns2:streetAddress>streetAddress1</ns2:streetAddress>
+            <ns2:city>city0</ns2:city>
+            <ns2:stateOrProvince>stateOrProvince0</ns2:stateOrProvince>
+            <ns2:zip>zip0</ns2:zip>
+            <ns2:country>country0</ns2:country>
+        </ns2:address>
+        <ns2:address>
+            <ns2:streetAddress>streetAddress2</ns2:streetAddress>
+            <ns2:streetAddress>streetAddress3</ns2:streetAddress>
+            <ns2:city>city1</ns2:city>
+            <ns2:stateOrProvince>stateOrProvince1</ns2:stateOrProvince>
+            <ns2:zip>zip1</ns2:zip>
+            <ns2:country>country1</ns2:country>
+        </ns2:address>
+        <ns2:telecom value="value1" use="use1"/>
+        <ns2:telecom value="value3" use="use3"/>
+    </author>
+    <text>text0</text>
+</comment>

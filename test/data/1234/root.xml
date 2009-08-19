@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://projecthdata.org/hdata/schemas/2009/06/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <documentId>documentid0</documentId>
+    <version>version0</version>
+    <created>2006-05-04</created>
+    <lastModified>2006-05-04</lastModified>
+    <extensions>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/advance_directive</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/allergy</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/comment</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/condition</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/encounter</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/provider</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/immunization</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/insurance_provider</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/medication</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/patient_information</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/procedure</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/result</extension>
+        <extension requirement="mandatory">http://projecthdata.org/hdata/schemas/2009/06/support</extension>
+    </extensions>
+    <sections>      
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/patient_information" path="patient_information" name="Patient Information"/>
+      <section typeId="urn:empty" path="adverse_reactions" name="Adverse Reactions">
+        <section typeId="urn:empty" path="allergies" name="Allergies">
+          <section typeId="http://projecthdata.org/hdata/schemas/2009/06/allergy" path="foods" name="Food Allergies"/>
+          <section typeId="http://projecthdata.org/hdata/schemas/2009/06/allergy" path="drugs" name="Drug Allergies"/>
+          <section typeId="http://projecthdata.org/hdata/schemas/2009/06/allergy" path="environment" name="Environmental Allergies"/>
+        </section>
+        <section typeId="urn:empty" path="intolerances" name="Intolerances"/>
+      </section>
+      <section typeId="urn:empty" path="laboratories" name="Laboratory">
+        <section typeId="http://projecthdata.org/hdata/schemas/2009/06/result" path="results" name="Results"/>
+      </section>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/advance_directive" path="advanced_directives" name="Advance Directive"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/comment" path="comments" name="Comment"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/condition" path="conditions" name="Condition"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/encounter" path="encounters" name="Encounter"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/provider" path="healthcare_providers" name="Healthcare Provider"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/immunization" path="immunizations" name="Imminuization"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/insurance_provider" path="insurance_providers" name="Insurance Provider"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/medication" path="medications" name="Medication"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/procedure" path="procedures" name="Procedure"/>
+      <section typeId="http://projecthdata.org/hdata/schemas/2009/06/support" path="supports" name="Support"/>
+    </sections>
+</root>

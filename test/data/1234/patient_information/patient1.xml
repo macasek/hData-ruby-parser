@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patient xmlns="http://projecthdata.org/hdata/schemas/2009/06/patient_information" xmlns:ns3="http://projecthdata.org/hdata/schemas/2009/06/core">
+        <ns3:name>
+            <ns3:title>title0</ns3:title>
+            <ns3:given>given0</ns3:given>
+            <ns3:given>given1</ns3:given>
+            <ns3:lastname>lastname0</ns3:lastname>
+            <ns3:suffix>suffix0</ns3:suffix>
+        </ns3:name>
+        <ns3:address>
+            <ns3:streetAddress>streetAddress0</ns3:streetAddress>
+            <ns3:streetAddress>streetAddress1</ns3:streetAddress>
+            <ns3:city>city0</ns3:city>
+            <ns3:stateOrProvince>stateOrProvince0</ns3:stateOrProvince>
+            <ns3:zip>zip0</ns3:zip>
+            <ns3:country>country0</ns3:country>
+        </ns3:address>
+        <ns3:address>
+            <ns3:streetAddress>streetAddress2</ns3:streetAddress>
+            <ns3:streetAddress>streetAddress3</ns3:streetAddress>
+            <ns3:city>city1</ns3:city>
+            <ns3:stateOrProvince>stateOrProvince1</ns3:stateOrProvince>
+            <ns3:zip>zip1</ns3:zip>
+            <ns3:country>country1</ns3:country>
+        </ns3:address>
+        <ns3:telecom value="value1" use="use1"/>
+        <ns3:telecom value="value3" use="use3"/>
+        <id>id0</id>
+        <gender codeSystem="HL7" code="M" displayName="Male" version="version1"/>
+        <language prefered="true" code="code3" codeSystem="codeSystem3" version="version3" displayName="displayName3">language0</language>
+        <language prefered="false" code="code5" codeSystem="codeSystem5" version="version5" displayName="displayName5">language1</language>
+        <birthtime>2006-05-04</birthtime>
+        <maritalStatus codeSystem="HL7" code="A" displayName="Annulled" version="version7"/>
+        <race codeSystem="HL7" code="code9" version="version9" displayName="displayName9"/>
+        <guardian>
+            <ns3:person>
+                <ns3:name>
+                    <ns3:title>title1</ns3:title>
+                    <ns3:given>given2</ns3:given>
+                    <ns3:given>given3</ns3:given>
+                    <ns3:lastname>lastname1</ns3:lastname>
+                    <ns3:suffix>suffix1</ns3:suffix>
+                </ns3:name>
+                <ns3:address>
+                    <ns3:streetAddress>streetAddress4</ns3:streetAddress>
+                    <ns3:streetAddress>streetAddress5</ns3:streetAddress>
+                    <ns3:city>city2</ns3:city>
+                    <ns3:stateOrProvince>stateOrProvince2</ns3:stateOrProvince>
+                    <ns3:zip>zip2</ns3:zip>
+                    <ns3:country>country2</ns3:country>
+                </ns3:address>
+                <ns3:address>
+                    <ns3:streetAddress>streetAddress6</ns3:streetAddress>
+                    <ns3:streetAddress>streetAddress7</ns3:streetAddress>
+                    <ns3:city>city3</ns3:city>
+                    <ns3:stateOrProvince>stateOrProvince3</ns3:stateOrProvince>
+                    <ns3:zip>zip3</ns3:zip>
+                    <ns3:country>country3</ns3:country>
+                </ns3:address>
+                <ns3:telecom value="value5" use="use5"/>
+                <ns3:telecom value="value7" use="use7"/>
+            </ns3:person>
+        </guardian>
+        <birthPlace>
+            <ns3:address>
+                <ns3:streetAddress>streetAddress8</ns3:streetAddress>
+                <ns3:streetAddress>streetAddress9</ns3:streetAddress>
+                <ns3:city>city4</ns3:city>
+                <ns3:stateOrProvince>stateOrProvince4</ns3:stateOrProvince>
+                <ns3:zip>zip4</ns3:zip>
+                <ns3:country>country4</ns3:country>
+            </ns3:address>
+        </birthPlace>
+                <ns3:informationSource>
+                    <ns3:author>
+                        <ns3:name>
+                            <ns3:title>title2</ns3:title>
+                            <ns3:given>given4</ns3:given>
+                            <ns3:given>given5</ns3:given>
+                            <ns3:lastname>lastname2</ns3:lastname>
+                            <ns3:suffix>suffix2</ns3:suffix>
+                        </ns3:name>
+                        <ns3:address>
+                            <ns3:streetAddress>streetAddress10</ns3:streetAddress>
+                            <ns3:streetAddress>streetAddress11</ns3:streetAddress>
+                            <ns3:city>city5</ns3:city>
+                            <ns3:stateOrProvince>stateOrProvince5</ns3:stateOrProvince>
+                            <ns3:zip>zip5</ns3:zip>
+                            <ns3:country>country5</ns3:country>
+                        </ns3:address>
+                        <ns3:address>
+                            <ns3:streetAddress>streetAddress12</ns3:streetAddress>
+                            <ns3:streetAddress>streetAddress13</ns3:streetAddress>
+                            <ns3:city>city6</ns3:city>
+                            <ns3:stateOrProvince>stateOrProvince6</ns3:stateOrProvince>
+                            <ns3:zip>zip6</ns3:zip>
+                            <ns3:country>country6</ns3:country>
+                        </ns3:address>
+                        <ns3:telecom value="value9" use="use9"/>
+                        <ns3:telecom value="value11" use="use11"/>
+                    </ns3:author>
+                    <ns3:date>2006-05-04T18:13:51.0Z</ns3:date>
+                    <ns3:reference>reference0</ns3:reference>
+                    <ns3:informant>
+                        <ns3:person>
+                            <ns3:name>
+                                <ns3:title>title3</ns3:title>
+                                <ns3:given>given6</ns3:given>
+                                <ns3:given>given7</ns3:given>
+                                <ns3:lastname>lastname3</ns3:lastname>
+                                <ns3:suffix>suffix3</ns3:suffix>
+                            </ns3:name>
+                            <ns3:address>
+                                <ns3:city>city7</ns3:city>
+                            </ns3:address>
+                            <ns3:address>
+                                <ns3:city>city8</ns3:city>
+                            </ns3:address>
+                            <ns3:telecom value="value13" use="use13"/>
+                            <ns3:telecom value="value15" use="use15"/>
+                        </ns3:person>
+                    </ns3:informant>
+                </ns3:informationSource>
+                <ns3:description>
+                    <ns3:text>text0</ns3:text>
+                    <ns3:codedValue code="code11" codeSystem="codeSystem11" version="version11" displayName="displayName11">codedValue0</ns3:codedValue>
+                    <ns3:codedValue code="code13" codeSystem="codeSystem13" version="version13" displayName="displayName13">codedValue1</ns3:codedValue>
+                </ns3:description>
+</patient>

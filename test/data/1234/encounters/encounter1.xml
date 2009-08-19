@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encounter xmlns:ns2="http://projecthdata.org/hdata/schemas/2009/06/core"
+ xmlns="http://projecthdata.org/hdata/schemas/2009/06/encounter">
+    <provider>
+        <ns2:organization>
+            <name>name0</name>
+            <pointOfContacts>
+                <pointOfContact>
+                    <ns2:name>
+                        <ns2:title>title0</ns2:title>
+                        <ns2:given>given0</ns2:given>
+                        <ns2:given>given1</ns2:given>
+                        <ns2:lastname>lastname0</ns2:lastname>
+                        <ns2:suffix>suffix0</ns2:suffix>
+                    </ns2:name>
+                </pointOfContact>
+                <pointOfContact>
+                    <ns2:name>
+                        <ns2:title>title1</ns2:title>
+                        <ns2:given>given2</ns2:given>
+                        <ns2:given>given3</ns2:given>
+                        <ns2:lastname>lastname1</ns2:lastname>
+                        <ns2:suffix>suffix1</ns2:suffix>
+                    </ns2:name>
+                </pointOfContact>
+            </pointOfContacts>
+            <ns2:address>
+                <ns2:streetAddress>streetAddress0</ns2:streetAddress>
+                <ns2:streetAddress>streetAddress1</ns2:streetAddress>
+                <ns2:city>city0</ns2:city>
+                <ns2:stateOrProvince>stateOrProvince0</ns2:stateOrProvince>
+                <ns2:zip>zip0</ns2:zip>
+                <ns2:country>country0</ns2:country>
+            </ns2:address>
+            <ns2:address>
+                <ns2:streetAddress>streetAddress2</ns2:streetAddress>
+                <ns2:streetAddress>streetAddress3</ns2:streetAddress>
+                <ns2:city>city1</ns2:city>
+                <ns2:stateOrProvince>stateOrProvince1</ns2:stateOrProvince>
+                <ns2:zip>zip1</ns2:zip>
+                <ns2:country>country1</ns2:country>
+            </ns2:address>
+        </ns2:organization>
+    </provider>
+    <type codeSystem="CPT-4" code="code1" version="version1" displayName="displayName1"/>
+    <ns2:dateRange high="2006-05-04T18:13:51.0Z" low="2006-05-04T18:13:51.0Z"/>
+            <ns2:informationSource>
+                <ns2:author>
+                    <ns2:name>
+                        <ns2:title>title2</ns2:title>
+                        <ns2:given>given4</ns2:given>
+                        <ns2:given>given5</ns2:given>
+                        <ns2:lastname>lastname2</ns2:lastname>
+                        <ns2:suffix>suffix2</ns2:suffix>
+                    </ns2:name>
+                    <ns2:address>
+                        <ns2:streetAddress>streetAddress4</ns2:streetAddress>
+                        <ns2:streetAddress>streetAddress5</ns2:streetAddress>
+                        <ns2:city>city2</ns2:city>
+                        <ns2:stateOrProvince>stateOrProvince2</ns2:stateOrProvince>
+                        <ns2:zip>zip2</ns2:zip>
+                        <ns2:country>country2</ns2:country>
+                    </ns2:address>
+                    <ns2:address>
+                        <ns2:streetAddress>streetAddress6</ns2:streetAddress>
+                        <ns2:streetAddress>streetAddress7</ns2:streetAddress>
+                        <ns2:city>city3</ns2:city>
+                        <ns2:stateOrProvince>stateOrProvince3</ns2:stateOrProvince>
+                        <ns2:zip>zip3</ns2:zip>
+                        <ns2:country>country3</ns2:country>
+                    </ns2:address>
+                    <ns2:telecom value="value1" use="use1"/>
+                    <ns2:telecom value="value3" use="use3"/>
+                </ns2:author>
+                <ns2:date>2006-05-04T18:13:51.0Z</ns2:date>
+                <ns2:reference>reference0</ns2:reference>
+                <ns2:informant>
+                    <ns2:person>
+                        <ns2:name>
+                            <ns2:title>title3</ns2:title>
+                            <ns2:given>given6</ns2:given>
+                            <ns2:given>given7</ns2:given>
+                            <ns2:lastname>lastname3</ns2:lastname>
+                            <ns2:suffix>suffix3</ns2:suffix>
+                        </ns2:name>
+                        <ns2:address>
+                            <ns2:city>city4</ns2:city>
+                        </ns2:address>
+                        <ns2:address>
+                            <ns2:city>city5</ns2:city>
+                        </ns2:address>
+                        <ns2:telecom value="value5" use="use5"/>
+                        <ns2:telecom value="value7" use="use7"/>
+                    </ns2:person>
+                </ns2:informant>
+            </ns2:informationSource>
+            <ns2:description>
+                <ns2:text>text0</ns2:text>
+                <ns2:codedValue code="code3" codeSystem="codeSystem3" version="version3" displayName="displayName3">codedValue0</ns2:codedValue>
+                <ns2:codedValue code="code5" codeSystem="codeSystem5" version="version5" displayName="displayName5">codedValue1</ns2:codedValue>
+            </ns2:description>
+</encounter>

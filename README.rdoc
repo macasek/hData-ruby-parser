@@ -1,0 +1,21 @@
+=Quick Start Guide
+
+==Configuration
+
+Set HDATA_LOG_PATH in your environment to control where log messages are sent (default = hdata_parser.log).
+
+==Usage
+
+hdata = Hdata.new("1234", "/path/to/patient/repo", [], true)
+
+hdata.section_data => Array of document objects
+hdata.root => Root document objects
+hdata.error => nil or a string with an error msg
+
+==TODO
+
+* actor.rb is a bit awk
+* better error reporting
+* better exception handling
+* tests!!!
+* 

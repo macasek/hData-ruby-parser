@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:ns1="http://projecthdata.org/hdata/schemas/2009/06/core"
+ xmlns="http://projecthdata.org/hdata/schemas/2009/06/procedure"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://projecthdata.org/hdata/schemas/2009/06/procedure file:/Volumes/Macintosh%20HD%202/workspace/git/hdata/hData-xsd-schemas/procedures.xsd">
+    <ns1:dateRange high="2006-05-04T18:13:51.0Z" low="2006-05-04T18:13:51.0Z"/>
+    <type code="code1" codeSystem="codeSystem1" version="version1" displayName="displayName1">type0</type>
+    <status code="code3" codeSystem="codeSystem3" version="version3" displayName="displayName3">status0</status>
+    <product code="code5" codeSystem="codeSystem5" version="version5" displayName="displayName5">product0</product>
+    <product code="code7" codeSystem="codeSystem7" version="version7" displayName="displayName7">product1</product>
+    <substance code="code9" codeSystem="codeSystem9" version="version9" displayName="displayName9">substance0</substance>
+    <performer>
+        <ns1:person>
+            <ns1:name>
+                <ns1:title>title0</ns1:title>
+                <ns1:given>given0</ns1:given>
+                <ns1:given>given1</ns1:given>
+                <ns1:lastname>lastname0</ns1:lastname>
+                <ns1:suffix>suffix0</ns1:suffix>
+            </ns1:name>
+            <ns1:address>
+                <ns1:streetAddress>streetAddress0</ns1:streetAddress>
+                <ns1:streetAddress>streetAddress1</ns1:streetAddress>
+                <ns1:city>city0</ns1:city>
+                <ns1:stateOrProvince>stateOrProvince0</ns1:stateOrProvince>
+                <ns1:zip>zip0</ns1:zip>
+                <ns1:country>country0</ns1:country>
+            </ns1:address>
+            <ns1:address>
+                <ns1:streetAddress>streetAddress2</ns1:streetAddress>
+                <ns1:streetAddress>streetAddress3</ns1:streetAddress>
+                <ns1:city>city1</ns1:city>
+                <ns1:stateOrProvince>stateOrProvince1</ns1:stateOrProvince>
+                <ns1:zip>zip1</ns1:zip>
+                <ns1:country>country1</ns1:country>
+            </ns1:address>
+            <ns1:telecom value="value1" use="use1"/>
+            <ns1:telecom value="value3" use="use3"/>
+        </ns1:person>
+    </performer>
+            <ns1:informationSource>
+                <ns1:author>
+                    <ns1:name>
+                        <ns1:title>title1</ns1:title>
+                        <ns1:given>given2</ns1:given>
+                        <ns1:given>given3</ns1:given>
+                        <ns1:lastname>lastname1</ns1:lastname>
+                        <ns1:suffix>suffix1</ns1:suffix>
+                    </ns1:name>
+                    <ns1:address>
+                        <ns1:streetAddress>streetAddress4</ns1:streetAddress>
+                        <ns1:streetAddress>streetAddress5</ns1:streetAddress>
+                        <ns1:city>city2</ns1:city>
+                        <ns1:stateOrProvince>stateOrProvince2</ns1:stateOrProvince>
+                        <ns1:zip>zip2</ns1:zip>
+                        <ns1:country>country2</ns1:country>
+                    </ns1:address>
+                    <ns1:address>
+                        <ns1:streetAddress>streetAddress6</ns1:streetAddress>
+                        <ns1:streetAddress>streetAddress7</ns1:streetAddress>
+                        <ns1:city>city3</ns1:city>
+                        <ns1:stateOrProvince>stateOrProvince3</ns1:stateOrProvince>
+                        <ns1:zip>zip3</ns1:zip>
+                        <ns1:country>country3</ns1:country>
+                    </ns1:address>
+                    <ns1:telecom value="value5" use="use5"/>
+                    <ns1:telecom value="value7" use="use7"/>
+                </ns1:author>
+                <ns1:date>2006-05-04T18:13:51.0Z</ns1:date>
+                <ns1:reference>reference0</ns1:reference>
+                <ns1:informant>
+                    <ns1:person>
+                        <ns1:name>
+                            <ns1:title>title2</ns1:title>
+                            <ns1:given>given4</ns1:given>
+                            <ns1:given>given5</ns1:given>
+                            <ns1:lastname>lastname2</ns1:lastname>
+                            <ns1:suffix>suffix2</ns1:suffix>
+                        </ns1:name>
+                        <ns1:address>
+                            <ns1:city>city4</ns1:city>
+                        </ns1:address>
+                        <ns1:address>
+                            <ns1:city>city5</ns1:city>
+                        </ns1:address>
+                        <ns1:telecom value="value9" use="use9"/>
+                        <ns1:telecom value="value11" use="use11"/>
+                    </ns1:person>
+                </ns1:informant>
+            </ns1:informationSource>
+            <ns1:description>
+                <ns1:text>text0</ns1:text>
+                <ns1:codedValue code="code11" codeSystem="codeSystem11" version="version11" displayName="displayName11">codedValue0</ns1:codedValue>
+                <ns1:codedValue code="code13" codeSystem="codeSystem13" version="version13" displayName="displayName13">codedValue1</ns1:codedValue>
+            </ns1:description>
+</procedure>
